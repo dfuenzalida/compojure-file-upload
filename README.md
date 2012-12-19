@@ -6,9 +6,15 @@ Updated the versions of the libraries referenced on project.clj because many wer
 
 Run with:
 
+```
 $ lein deps
 $ lein repl
 
-lein> (use 'fileupload.core)
-lein> (start-app)
-
+user=> (use 'fileupload.core)
+nil
+user=> (start-app)
+...
+2012-12-18 22:25:59.660::INFO:  jetty-6.1.14
+2012-12-18 22:25:59.678::INFO:  Started SocketConnector@0.0.0.0:8000
+...
+```
